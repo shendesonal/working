@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="7" passed="2" failed="0" skipped="5">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-27T14:53:37Z" name="Default suite" finished-at="2023-09-27T14:54:20Z" duration-ms="43347">
+    <groups>
+    </groups>
+    <test started-at="2023-09-27T14:53:37Z" name="Default test" finished-at="2023-09-27T14:54:20Z" duration-ms="43347">
+      <class name="crm.tastcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:23:37Z" name="setup" finished-at="2023-09-27T20:23:57Z" duration-ms="20352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="isCrmLogoDisplay()[pri:1, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:23:57Z" name="isCrmLogoDisplay" finished-at="2023-09-27T20:23:57Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCrmLogoDisplay -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:23:57Z" name="setup" finished-at="2023-09-27T20:24:18Z" duration-ms="20361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="isSignUpLinkLinkDisplay()[pri:2, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:24:18Z" name="isSignUpLinkLinkDisplay" finished-at="2023-09-27T20:24:18Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSignUpLinkLinkDisplay -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:24:18Z" name="setup" finished-at="2023-09-27T20:24:18Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SONAL', ip: '192.168.1.42', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: C:\Users\sonal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 872c40bcdf999a84104b32485d55ca44
+*** Element info: {Using=xpath, value=//input[@name='username']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SONAL', ip: '192.168.1.42', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.62 (25a7172909a4..., userDataDir: C:\Users\sonal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 872c40bcdf999a84104b32485d55ca44
+*** Element info: {Using=xpath, value=//input[@name='username']}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy10.sendKeys(Unknown Source)
+	at PomPackage.LoginPageCRM.LoginApplication(LoginPageCRM.java:58)
+	at crm.tastcases.LoginPageTest.setup(LoginPageTest.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="isPricingLinkDisplay()[pri:3, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:24:20Z" name="isPricingLinkDisplay" finished-at="2023-09-27T20:24:20Z" duration-ms="8" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPricingLinkDisplay -->
+        <test-method signature="isFeaturesLinkDisplay()[pri:4, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:24:20Z" name="isFeaturesLinkDisplay" finished-at="2023-09-27T20:24:20Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isFeaturesLinkDisplay -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:24:20Z" name="setup" finished-at="2023-09-27T20:24:20Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:24:20Z" name="setup" finished-at="2023-09-27T20:24:20Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="isCustomersLinkDisplay()[pri:5, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:24:20Z" name="isCustomersLinkDisplay" finished-at="2023-09-27T20:24:20Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCustomersLinkDisplay -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:24:20Z" name="setup" finished-at="2023-09-27T20:24:20Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:24:20Z" name="setup" finished-at="2023-09-27T20:24:20Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="isContactLinkDisplay()[pri:6, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:24:20Z" name="isContactLinkDisplay" finished-at="2023-09-27T20:24:20Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isContactLinkDisplay -->
+        <test-method signature="ishomeLinkDisplay()[pri:7, instance:crm.tastcases.LoginPageTest@71075444]" started-at="2023-09-27T20:24:20Z" name="ishomeLinkDisplay" finished-at="2023-09-27T20:24:20Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ishomeLinkDisplay -->
+      </class> <!-- crm.tastcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
